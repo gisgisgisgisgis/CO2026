@@ -14,6 +14,6 @@ loop:
     addi t1, t1, 1 # add index
 
     blt t1, a1, loop # if i < n, continue the loop
-
+`
     mv a0, t0
     ret
